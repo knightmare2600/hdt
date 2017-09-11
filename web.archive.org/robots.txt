@@ -1,0 +1,7 @@
+# robots.txt web.archive.org 2013-10-02
+
+User-agent: *
+Disallow: /
+
+User-agent: ia_archiver
+Allow: /

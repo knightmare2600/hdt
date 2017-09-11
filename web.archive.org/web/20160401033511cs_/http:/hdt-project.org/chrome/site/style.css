@@ -1,0 +1,182 @@
+body, td {
+    background-color: rgb(40,44,48);
+}
+
+
+
+/* Includes logo and top nav */
+#banner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 25px;
+
+}
+
+#banner A:link { color: rgb(238,238,238); }
+#banner A:visited { color: rgb(238,238,238); }
+#banner A:hover { color: rgb(62,151,208); }
+
+
+
+#search{
+	position:relative;
+	margin-top: -40px;
+	
+}
+
+
+/* Search button */
+#search input[type=submit]{
+	background-image: url("../../../../../20160401033528im_/http:/hdt-project.org/chrome/site/button.png");
+	color:#CCC;
+	border: none;
+	width: 44px;
+}
+
+/* Search text field */
+#search input[type=text]{
+  background: transparent;
+  border: none;
+  background-image: url("../../../../../20160401033528im_/http:/hdt-project.org/chrome/site/textfieldBackground.png");
+  background-repeat:no-repeat;
+}
+
+
+
+/* Main content container */
+#content {
+    background-color: rgb(238,238,238);
+    background-image: url("../../../../../20160401033528im_/http:/hdt-project.org/chrome/site/contentGradient.png");
+    background-repeat: repeat-x; 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	
+	padding: 5px;
+
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+	
+}
+
+.wiki-toc, #ticket {
+    background-color: rgb(238,238,238);
+}
+
+
+#propertyform td,
+#content td {
+    background-color: rgb(238,238,238);
+}
+
+#metanav li {
+	color: white
+}
+
+/* Navigation */
+#mainnav
+{
+	background: rgb(40,44,48);
+	font-size: 11px;
+    border: none;
+    border-width: 0px;
+    
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* Current selected menu item */
+#mainnav .active :link, #mainnav .active :visited {
+    background-color: rgb(62,151,208);
+    background-image: url("../../../../../20160401033528im_/http:/hdt-project.org/chrome/site/style.css");
+    border-top: none;
+    border-right: 0px solid #000; /* Modified */
+    font-weight: bold;
+
+
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+
+
+/* non-active menu items*/
+#mainnav :link, #mainnav :visited
+{
+    background-image: Url("style.css"); /* Get rid of the stupid triangles */
+	color: #fff; 
+	font-size: 11px;
+	font-weight: bold;
+    border: none;
+    border-width: 0px;
+    
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+
+/* Mouse over menu item */
+#mainnav :link:hover, #mainnav :visited:hover
+{
+	background-color: #bdbdbd
+}
+
+
+
+/* Subnavigation links */
+#ctxtnav
+{
+	background: rgb(40,44,48);
+	font-size: 11px;
+    border: none;
+    border-width: 0px;
+    padding-bottom:5px;
+    
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ctxtnav A:link { color: rgb(238,238,238); }
+#ctxtnav A:visited { color: rgb(238,238,238); }
+#ctxtnav A:hover { color: rgb(62,151,208); }
+
+
+
+#altlinks{
+	color:#999;
+	
+}
+
+
+/* Footer containing trac logo and whatnot*/
+#footer{
+    border:0px;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+
+/* End of page*/
+#sitefooter{
+    background-color: rgb(24,26,29);
+    margin-left: -23px;
+	margin-bottom: -20px;
+    width:102%;
+    height: 200px;
+}
+
+
+/*
+     FILE ARCHIVED ON 03:35:28 Apr 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:09:51 Sep 11, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
